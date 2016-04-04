@@ -377,7 +377,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -437,7 +437,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -483,7 +483,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -543,657 +543,11 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/ServiceRequest_Statuses_Get.xsd")]
-    public partial class ctRecordStamp26 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/ServiceRequest_Statuses_Get.xsd")]
-    public partial class ctError30 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Handhelds_Get.xsd")]
-    public partial class ctError29 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_FutureCollections_Get.xsd")]
-    public partial class ctRecordStamp25 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctBin", Namespace="http://www.bartec-systems.com/Premises_FutureCollections_Get.xsd")]
-    public partial class ctBin3 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string binIDField;
-        
-        private string serialNumberField;
-        
-        private string binTypeField;
-        
-        private string binSizeField;
-        
-        private string binStatusField;
-        
-        private string barcodeField;
-        
-        private string rFIDField;
-        
-        private object uPRNField;
-        
-        private ctRecordStamp25 recordStampField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string BinID {
-            get {
-                return this.binIDField;
-            }
-            set {
-                this.binIDField = value;
-                this.RaisePropertyChanged("BinID");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string SerialNumber {
-            get {
-                return this.serialNumberField;
-            }
-            set {
-                this.serialNumberField = value;
-                this.RaisePropertyChanged("SerialNumber");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string BinType {
-            get {
-                return this.binTypeField;
-            }
-            set {
-                this.binTypeField = value;
-                this.RaisePropertyChanged("BinType");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string BinSize {
-            get {
-                return this.binSizeField;
-            }
-            set {
-                this.binSizeField = value;
-                this.RaisePropertyChanged("BinSize");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public string BinStatus {
-            get {
-                return this.binStatusField;
-            }
-            set {
-                this.binStatusField = value;
-                this.RaisePropertyChanged("BinStatus");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public string Barcode {
-            get {
-                return this.barcodeField;
-            }
-            set {
-                this.barcodeField = value;
-                this.RaisePropertyChanged("Barcode");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-        public string RFID {
-            get {
-                return this.rFIDField;
-            }
-            set {
-                this.rFIDField = value;
-                this.RaisePropertyChanged("RFID");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-        public object UPRN {
-            get {
-                return this.uPRNField;
-            }
-            set {
-                this.uPRNField = value;
-                this.RaisePropertyChanged("UPRN");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
-        public ctRecordStamp25 RecordStamp {
-            get {
-                return this.recordStampField;
-            }
-            set {
-                this.recordStampField = value;
-                this.RaisePropertyChanged("RecordStamp");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_FutureCollections_Get.xsd")]
-    public partial class ctError28 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointMetric", Namespace="http://www.bartec-systems.com/ServiceRequests_Get.xsd")]
-    public partial class ctPointMetric7 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private decimal latitudeField;
-        
-        private decimal longitudeField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Latitude {
-            get {
-                return this.latitudeField;
-            }
-            set {
-                this.latitudeField = value;
-                this.RaisePropertyChanged("Latitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Longitude {
-            get {
-                return this.longitudeField;
-            }
-            set {
-                this.longitudeField = value;
-                this.RaisePropertyChanged("Longitude");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointBNG", Namespace="http://www.bartec-systems.com/ServiceRequests_Get.xsd")]
-    public partial class ctPointBNG7 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private decimal eastingField;
-        
-        private decimal northingField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Easting {
-            get {
-                return this.eastingField;
-            }
-            set {
-                this.eastingField = value;
-                this.RaisePropertyChanged("Easting");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Northing {
-            get {
-                return this.northingField;
-            }
-            set {
-                this.northingField = value;
-                this.RaisePropertyChanged("Northing");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctMapPoint", Namespace="http://www.bartec-systems.com/ServiceRequests_Get.xsd")]
-    public partial class ctMapPoint6 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private ctPointBNG7 bNGField;
-        
-        private ctPointMetric7 metricField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctPointBNG7 BNG {
-            get {
-                return this.bNGField;
-            }
-            set {
-                this.bNGField = value;
-                this.RaisePropertyChanged("BNG");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public ctPointMetric7 Metric {
-            get {
-                return this.metricField;
-            }
-            set {
-                this.metricField = value;
-                this.RaisePropertyChanged("Metric");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/ServiceRequests_Get.xsd")]
-    public partial class ctRecordStamp24 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/ServiceRequests_Get.xsd")]
-    public partial class ctError27 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctAddress", Namespace="http://www.bartec-systems.com/ServiceRequests_Detail_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctAddress", Namespace="http://www.bartec-systems.com/Premises_Detail_Get.xsd")]
     public partial class ctAddress2 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string address1Field;
@@ -1291,11 +645,467 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointMetric", Namespace="http://www.bartec-systems.com/ServiceRequests_Detail_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointMetric", Namespace="http://www.bartec-systems.com/Premises_Detail_Get.xsd")]
+    public partial class ctPointMetric7 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private decimal latitudeField;
+        
+        private decimal longitudeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Latitude {
+            get {
+                return this.latitudeField;
+            }
+            set {
+                this.latitudeField = value;
+                this.RaisePropertyChanged("Latitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Longitude {
+            get {
+                return this.longitudeField;
+            }
+            set {
+                this.longitudeField = value;
+                this.RaisePropertyChanged("Longitude");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointBNG", Namespace="http://www.bartec-systems.com/Premises_Detail_Get.xsd")]
+    public partial class ctPointBNG7 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private decimal eastingField;
+        
+        private decimal northingField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Easting {
+            get {
+                return this.eastingField;
+            }
+            set {
+                this.eastingField = value;
+                this.RaisePropertyChanged("Easting");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Northing {
+            get {
+                return this.northingField;
+            }
+            set {
+                this.northingField = value;
+                this.RaisePropertyChanged("Northing");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctMapPoint", Namespace="http://www.bartec-systems.com/Premises_Detail_Get.xsd")]
+    public partial class ctMapPoint6 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private ctPointBNG7 bNGField;
+        
+        private ctPointMetric7 metricField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public ctPointBNG7 BNG {
+            get {
+                return this.bNGField;
+            }
+            set {
+                this.bNGField = value;
+                this.RaisePropertyChanged("BNG");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public ctPointMetric7 Metric {
+            get {
+                return this.metricField;
+            }
+            set {
+                this.metricField = value;
+                this.RaisePropertyChanged("Metric");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_Detail_Get.xsd")]
+    public partial class ctRecordStamp26 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_Detail_Get.xsd")]
+    public partial class ctError30 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/ServiceRequests_History_Get.xsd")]
+    public partial class ctRecordStamp25 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/ServiceRequests_History_Get.xsd")]
+    public partial class ctError29 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_Events_Types_Get.xsd")]
+    public partial class ctRecordStamp24 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_Events_Types_Get.xsd")]
+    public partial class ctError28 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointMetric", Namespace="http://www.bartec-systems.com/Premises_Events_Get.xsd")]
     public partial class ctPointMetric6 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private decimal latitudeField;
@@ -1337,11 +1147,11 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointBNG", Namespace="http://www.bartec-systems.com/ServiceRequests_Detail_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointBNG", Namespace="http://www.bartec-systems.com/Premises_Events_Get.xsd")]
     public partial class ctPointBNG6 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private decimal eastingField;
@@ -1383,11 +1193,11 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctMapPoint", Namespace="http://www.bartec-systems.com/ServiceRequests_Detail_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctMapPoint", Namespace="http://www.bartec-systems.com/Premises_Events_Get.xsd")]
     public partial class ctMapPoint5 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private ctPointBNG6 bNGField;
@@ -1429,11 +1239,11 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/ServiceRequests_Detail_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_Events_Get.xsd")]
     public partial class ctRecordStamp23 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string addedByField;
@@ -1489,12 +1299,12 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/ServiceRequests_Detail_Get.xsd")]
-    public partial class ctError26 : object, System.ComponentModel.INotifyPropertyChanged {
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_Events_Get.xsd")]
+    public partial class ctError27 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string resultField;
         
@@ -1535,11 +1345,11 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/ServiceRequests_Types_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Rounds_RoundPlans_Get.xsd")]
     public partial class ctRecordStamp22 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string addedByField;
@@ -1595,113 +1405,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/ServiceRequests_Types_Get.xsd")]
-    public partial class ctError25 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Rounds_RoundPlans_Get.xsd")]
-    public partial class ctRecordStamp21 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1722,7 +1426,7 @@ namespace Bartec.WasteCollector.Service {
         
         private object uPRNField;
         
-        private ctRecordStamp21 recordStampField;
+        private ctRecordStamp22 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
@@ -1810,7 +1514,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-        public ctRecordStamp21 RecordStamp {
+        public ctRecordStamp22 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -1831,12 +1535,12 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Rounds_RoundPlans_Get.xsd")]
-    public partial class ctError24 : object, System.ComponentModel.INotifyPropertyChanged {
+    public partial class ctError26 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string resultField;
         
@@ -1877,117 +1581,11 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Streets_Get.xsd")]
-    public partial class ctRecordStamp20 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Streets_Get.xsd")]
-    public partial class ctError23 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctAddress", Namespace="http://www.bartec-systems.com/Premises_Detail_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctAddress", Namespace="http://www.bartec-systems.com/Premises_Get.xsd")]
     public partial class ctAddress1 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string address1Field;
@@ -2085,11 +1683,11 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointMetric", Namespace="http://www.bartec-systems.com/Premises_Detail_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointMetric", Namespace="http://www.bartec-systems.com/Premises_Get.xsd")]
     public partial class ctPointMetric5 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private decimal latitudeField;
@@ -2131,11 +1729,11 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointBNG", Namespace="http://www.bartec-systems.com/Premises_Detail_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointBNG", Namespace="http://www.bartec-systems.com/Premises_Get.xsd")]
     public partial class ctPointBNG5 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private decimal eastingField;
@@ -2177,11 +1775,11 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctMapPoint", Namespace="http://www.bartec-systems.com/Premises_Detail_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctMapPoint", Namespace="http://www.bartec-systems.com/Premises_Get.xsd")]
     public partial class ctMapPoint4 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private ctPointBNG5 bNGField;
@@ -2223,11 +1821,407 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_Detail_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_Get.xsd")]
+    public partial class ctRecordStamp21 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_Get.xsd")]
+    public partial class ctError25 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/ServiceRequest_Statuses_Get.xsd")]
+    public partial class ctRecordStamp20 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/ServiceRequest_Statuses_Get.xsd")]
+    public partial class ctError24 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Handhelds_Get.xsd")]
+    public partial class ctError23 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointMetric", Namespace="http://www.bartec-systems.com/Streets_Events_Get.xsd")]
+    public partial class ctPointMetric4 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private decimal latitudeField;
+        
+        private decimal longitudeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Latitude {
+            get {
+                return this.latitudeField;
+            }
+            set {
+                this.latitudeField = value;
+                this.RaisePropertyChanged("Latitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Longitude {
+            get {
+                return this.longitudeField;
+            }
+            set {
+                this.longitudeField = value;
+                this.RaisePropertyChanged("Longitude");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointBNG", Namespace="http://www.bartec-systems.com/Streets_Events_Get.xsd")]
+    public partial class ctPointBNG4 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private decimal eastingField;
+        
+        private decimal northingField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Easting {
+            get {
+                return this.eastingField;
+            }
+            set {
+                this.eastingField = value;
+                this.RaisePropertyChanged("Easting");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Northing {
+            get {
+                return this.northingField;
+            }
+            set {
+                this.northingField = value;
+                this.RaisePropertyChanged("Northing");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctMapPoint", Namespace="http://www.bartec-systems.com/Streets_Events_Get.xsd")]
+    public partial class ctMapPoint3 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private ctPointBNG4 bNGField;
+        
+        private ctPointMetric4 metricField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public ctPointBNG4 BNG {
+            get {
+                return this.bNGField;
+            }
+            set {
+                this.bNGField = value;
+                this.RaisePropertyChanged("BNG");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public ctPointMetric4 Metric {
+            get {
+                return this.metricField;
+            }
+            set {
+                this.metricField = value;
+                this.RaisePropertyChanged("Metric");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Streets_Events_Get.xsd")]
     public partial class ctRecordStamp19 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string addedByField;
@@ -2283,11 +2277,11 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_Detail_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Streets_Events_Get.xsd")]
     public partial class ctError22 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string resultField;
@@ -2329,11 +2323,11 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_RoundSheets_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_AttributeDefs_Get.xsd")]
     public partial class ctRecordStamp18 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string addedByField;
@@ -2389,11 +2383,11 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_RoundSheets_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_AttributeDefs_Get.xsd")]
     public partial class ctError21 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string resultField;
@@ -2435,94 +2429,38 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.bartec-systems.com/Premises_Get.xsd")]
-    public partial class ctAddress : object, System.ComponentModel.INotifyPropertyChanged {
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/ServiceRequest_Statuses_Create_Response.xsd")]
+    public partial class ctError20 : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private string address1Field;
+        private string resultField;
         
-        private string address2Field;
-        
-        private string streetField;
-        
-        private string localityField;
-        
-        private string townField;
-        
-        private string postCodeField;
+        private string messageField;
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string Address1 {
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
             get {
-                return this.address1Field;
+                return this.resultField;
             }
             set {
-                this.address1Field = value;
-                this.RaisePropertyChanged("Address1");
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Address2 {
+        public string Message {
             get {
-                return this.address2Field;
+                return this.messageField;
             }
             set {
-                this.address2Field = value;
-                this.RaisePropertyChanged("Address2");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Street {
-            get {
-                return this.streetField;
-            }
-            set {
-                this.streetField = value;
-                this.RaisePropertyChanged("Street");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string Locality {
-            get {
-                return this.localityField;
-            }
-            set {
-                this.localityField = value;
-                this.RaisePropertyChanged("Locality");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public string Town {
-            get {
-                return this.townField;
-            }
-            set {
-                this.townField = value;
-                this.RaisePropertyChanged("Town");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public string PostCode {
-            get {
-                return this.postCodeField;
-            }
-            set {
-                this.postCodeField = value;
-                this.RaisePropertyChanged("PostCode");
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
             }
         }
         
@@ -2537,149 +2475,11 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointMetric", Namespace="http://www.bartec-systems.com/Premises_Get.xsd")]
-    public partial class ctPointMetric4 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private decimal latitudeField;
-        
-        private decimal longitudeField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Latitude {
-            get {
-                return this.latitudeField;
-            }
-            set {
-                this.latitudeField = value;
-                this.RaisePropertyChanged("Latitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Longitude {
-            get {
-                return this.longitudeField;
-            }
-            set {
-                this.longitudeField = value;
-                this.RaisePropertyChanged("Longitude");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointBNG", Namespace="http://www.bartec-systems.com/Premises_Get.xsd")]
-    public partial class ctPointBNG4 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private decimal eastingField;
-        
-        private decimal northingField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Easting {
-            get {
-                return this.eastingField;
-            }
-            set {
-                this.eastingField = value;
-                this.RaisePropertyChanged("Easting");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Northing {
-            get {
-                return this.northingField;
-            }
-            set {
-                this.northingField = value;
-                this.RaisePropertyChanged("Northing");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctMapPoint", Namespace="http://www.bartec-systems.com/Premises_Get.xsd")]
-    public partial class ctMapPoint3 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private ctPointBNG4 bNGField;
-        
-        private ctPointMetric4 metricField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctPointBNG4 BNG {
-            get {
-                return this.bNGField;
-            }
-            set {
-                this.bNGField = value;
-                this.RaisePropertyChanged("BNG");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public ctPointMetric4 Metric {
-            get {
-                return this.metricField;
-            }
-            set {
-                this.metricField = value;
-                this.RaisePropertyChanged("Metric");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_ServiceLocation_Type_Get.xsd")]
     public partial class ctRecordStamp17 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string addedByField;
@@ -2735,57 +2535,11 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_Get.xsd")]
-    public partial class ctError20 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_ServiceLocation_Definition_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_ServiceLocation_Type_Get.xsd")]
     public partial class ctError19 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string resultField;
@@ -2827,11 +2581,11 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_ServiceLocation_Definition_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/ServiceRequests_Types_Get.xsd")]
     public partial class ctRecordStamp16 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string addedByField;
@@ -2887,11 +2641,11 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Bins_Detail_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/ServiceRequests_Types_Get.xsd")]
     public partial class ctError18 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string resultField;
@@ -2933,11 +2687,11 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Bins_Detail_Get.xsd")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_FutureCollections_Get.xsd")]
     public partial class ctRecordStamp15 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string addedByField;
@@ -2993,2461 +2747,12 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_AttributeDefs_Get.xsd")]
-    public partial class ctRecordStamp14 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_AttributeDefs_Get.xsd")]
-    public partial class ctError17 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointMetric", Namespace="http://www.bartec-systems.com/Premises_Events_Create.xsd")]
-    public partial class ctPointMetric3 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private decimal latitudeField;
-        
-        private decimal longitudeField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Latitude {
-            get {
-                return this.latitudeField;
-            }
-            set {
-                this.latitudeField = value;
-                this.RaisePropertyChanged("Latitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Longitude {
-            get {
-                return this.longitudeField;
-            }
-            set {
-                this.longitudeField = value;
-                this.RaisePropertyChanged("Longitude");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointBNG", Namespace="http://www.bartec-systems.com/Premises_Events_Create.xsd")]
-    public partial class ctPointBNG3 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private decimal eastingField;
-        
-        private decimal northingField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Easting {
-            get {
-                return this.eastingField;
-            }
-            set {
-                this.eastingField = value;
-                this.RaisePropertyChanged("Easting");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Northing {
-            get {
-                return this.northingField;
-            }
-            set {
-                this.northingField = value;
-                this.RaisePropertyChanged("Northing");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctMapPoint", Namespace="http://www.bartec-systems.com/Premises_Events_Create.xsd")]
-    public partial class ctMapPoint2 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private ctPointBNG3 bNGField;
-        
-        private ctPointMetric3 metricField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctPointBNG3 BNG {
-            get {
-                return this.bNGField;
-            }
-            set {
-                this.bNGField = value;
-                this.RaisePropertyChanged("BNG");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public ctPointMetric3 Metric {
-            get {
-                return this.metricField;
-            }
-            set {
-                this.metricField = value;
-                this.RaisePropertyChanged("Metric");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_Events_Types_Get.xsd")]
-    public partial class ctRecordStamp13 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_Events_Types_Get.xsd")]
-    public partial class ctError16 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/ServiceRequest_Statuses_Create_Response.xsd")]
-    public partial class ctError15 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Streets_Event_Types.xsd")]
-    public partial class ctRecordStamp12 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Streets_Event_Types.xsd")]
-    public partial class ctError14 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Bins_Types_Get.xsd")]
-    public partial class ctRecordStamp11 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Bins_Types_Get.xsd")]
-    public partial class ctError13 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Streets_Detail_Get.xsd")]
-    public partial class ctRecordStamp10 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Streets_Detail_Get.xsd")]
-    public partial class ctError12 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_Bins_Rounds_Defaults_Get.xsd")]
-    public partial class ctRecordStamp9 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_Bins_Rounds_Defaults_Get.xsd")]
-    public partial class ctError11 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_Rounds_Get.xsd")]
-    public partial class ctRecordStamp8 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctBin", Namespace="http://www.bartec-systems.com/Premises_Rounds_Get.xsd")]
-    public partial class ctBin2 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string binIDField;
-        
-        private string serialNumberField;
-        
-        private string binTypeField;
-        
-        private string binSizeField;
-        
-        private string binStatusField;
-        
-        private string barcodeField;
-        
-        private string rFIDField;
-        
-        private object uPRNField;
-        
-        private ctRecordStamp8 recordStampField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string BinID {
-            get {
-                return this.binIDField;
-            }
-            set {
-                this.binIDField = value;
-                this.RaisePropertyChanged("BinID");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string SerialNumber {
-            get {
-                return this.serialNumberField;
-            }
-            set {
-                this.serialNumberField = value;
-                this.RaisePropertyChanged("SerialNumber");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string BinType {
-            get {
-                return this.binTypeField;
-            }
-            set {
-                this.binTypeField = value;
-                this.RaisePropertyChanged("BinType");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string BinSize {
-            get {
-                return this.binSizeField;
-            }
-            set {
-                this.binSizeField = value;
-                this.RaisePropertyChanged("BinSize");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public string BinStatus {
-            get {
-                return this.binStatusField;
-            }
-            set {
-                this.binStatusField = value;
-                this.RaisePropertyChanged("BinStatus");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public string Barcode {
-            get {
-                return this.barcodeField;
-            }
-            set {
-                this.barcodeField = value;
-                this.RaisePropertyChanged("Barcode");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-        public string RFID {
-            get {
-                return this.rFIDField;
-            }
-            set {
-                this.rFIDField = value;
-                this.RaisePropertyChanged("RFID");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-        public object UPRN {
-            get {
-                return this.uPRNField;
-            }
-            set {
-                this.uPRNField = value;
-                this.RaisePropertyChanged("UPRN");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
-        public ctRecordStamp8 RecordStamp {
-            get {
-                return this.recordStampField;
-            }
-            set {
-                this.recordStampField = value;
-                this.RaisePropertyChanged("RecordStamp");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_Rounds_Get.xsd")]
-    public partial class ctError10 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_ServiceLocation_Type_Get.xsd")]
-    public partial class ctRecordStamp7 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_ServiceLocation_Type_Get.xsd")]
-    public partial class ctError9 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/ServiceRequests_History_Get.xsd")]
-    public partial class ctRecordStamp6 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/ServiceRequests_History_Get.xsd")]
-    public partial class ctError8 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointMetric", Namespace="http://www.bartec-systems.com/Streets_Events_Get.xsd")]
-    public partial class ctPointMetric2 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private decimal latitudeField;
-        
-        private decimal longitudeField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Latitude {
-            get {
-                return this.latitudeField;
-            }
-            set {
-                this.latitudeField = value;
-                this.RaisePropertyChanged("Latitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Longitude {
-            get {
-                return this.longitudeField;
-            }
-            set {
-                this.longitudeField = value;
-                this.RaisePropertyChanged("Longitude");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointBNG", Namespace="http://www.bartec-systems.com/Streets_Events_Get.xsd")]
-    public partial class ctPointBNG2 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private decimal eastingField;
-        
-        private decimal northingField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Easting {
-            get {
-                return this.eastingField;
-            }
-            set {
-                this.eastingField = value;
-                this.RaisePropertyChanged("Easting");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Northing {
-            get {
-                return this.northingField;
-            }
-            set {
-                this.northingField = value;
-                this.RaisePropertyChanged("Northing");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctMapPoint", Namespace="http://www.bartec-systems.com/Streets_Events_Get.xsd")]
-    public partial class ctMapPoint1 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private ctPointBNG2 bNGField;
-        
-        private ctPointMetric2 metricField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctPointBNG2 BNG {
-            get {
-                return this.bNGField;
-            }
-            set {
-                this.bNGField = value;
-                this.RaisePropertyChanged("BNG");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public ctPointMetric2 Metric {
-            get {
-                return this.metricField;
-            }
-            set {
-                this.metricField = value;
-                this.RaisePropertyChanged("Metric");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Streets_Events_Get.xsd")]
-    public partial class ctRecordStamp5 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Streets_Events_Get.xsd")]
-    public partial class ctError7 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointMetric", Namespace="http://www.bartec-systems.com/Premises_Events_Get.xsd")]
-    public partial class ctPointMetric1 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private decimal latitudeField;
-        
-        private decimal longitudeField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Latitude {
-            get {
-                return this.latitudeField;
-            }
-            set {
-                this.latitudeField = value;
-                this.RaisePropertyChanged("Latitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Longitude {
-            get {
-                return this.longitudeField;
-            }
-            set {
-                this.longitudeField = value;
-                this.RaisePropertyChanged("Longitude");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointBNG", Namespace="http://www.bartec-systems.com/Premises_Events_Get.xsd")]
-    public partial class ctPointBNG1 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private decimal eastingField;
-        
-        private decimal northingField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Easting {
-            get {
-                return this.eastingField;
-            }
-            set {
-                this.eastingField = value;
-                this.RaisePropertyChanged("Easting");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Northing {
-            get {
-                return this.northingField;
-            }
-            set {
-                this.northingField = value;
-                this.RaisePropertyChanged("Northing");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.bartec-systems.com/Premises_Events_Get.xsd")]
-    public partial class ctMapPoint : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private ctPointBNG1 bNGField;
-        
-        private ctPointMetric1 metricField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctPointBNG1 BNG {
-            get {
-                return this.bNGField;
-            }
-            set {
-                this.bNGField = value;
-                this.RaisePropertyChanged("BNG");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public ctPointMetric1 Metric {
-            get {
-                return this.metricField;
-            }
-            set {
-                this.metricField = value;
-                this.RaisePropertyChanged("Metric");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_Events_Get.xsd")]
-    public partial class ctRecordStamp4 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_Events_Get.xsd")]
-    public partial class ctError6 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Bins_Get.xsd")]
-    public partial class ctRecordStamp3 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctBin", Namespace="http://www.bartec-systems.com/Bins_Get.xsd")]
-    public partial class ctBin1 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string binIDField;
-        
-        private string serialNumberField;
-        
-        private string binTypeField;
-        
-        private string binSizeField;
-        
-        private string binStatusField;
-        
-        private string barcodeField;
-        
-        private string rFIDField;
-        
-        private object uPRNField;
-        
-        private ctRecordStamp3 recordStampField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string BinID {
-            get {
-                return this.binIDField;
-            }
-            set {
-                this.binIDField = value;
-                this.RaisePropertyChanged("BinID");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string SerialNumber {
-            get {
-                return this.serialNumberField;
-            }
-            set {
-                this.serialNumberField = value;
-                this.RaisePropertyChanged("SerialNumber");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string BinType {
-            get {
-                return this.binTypeField;
-            }
-            set {
-                this.binTypeField = value;
-                this.RaisePropertyChanged("BinType");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public string BinSize {
-            get {
-                return this.binSizeField;
-            }
-            set {
-                this.binSizeField = value;
-                this.RaisePropertyChanged("BinSize");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public string BinStatus {
-            get {
-                return this.binStatusField;
-            }
-            set {
-                this.binStatusField = value;
-                this.RaisePropertyChanged("BinStatus");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public string Barcode {
-            get {
-                return this.barcodeField;
-            }
-            set {
-                this.barcodeField = value;
-                this.RaisePropertyChanged("Barcode");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-        public string RFID {
-            get {
-                return this.rFIDField;
-            }
-            set {
-                this.rFIDField = value;
-                this.RaisePropertyChanged("RFID");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-        public object UPRN {
-            get {
-                return this.uPRNField;
-            }
-            set {
-                this.uPRNField = value;
-                this.RaisePropertyChanged("UPRN");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
-        public ctRecordStamp3 RecordStamp {
-            get {
-                return this.recordStampField;
-            }
-            set {
-                this.recordStampField = value;
-                this.RaisePropertyChanged("RecordStamp");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Bins_Get.xsd")]
-    public partial class ctError5 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_Attributes_Get.xsd")]
-    public partial class ctRecordStamp2 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_Attributes_Get.xsd")]
-    public partial class ctError4 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Vehicles_Get.xsd")]
-    public partial class ctError3 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Bins_Sizes_Get.xsd")]
-    public partial class ctRecordStamp1 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string addedByField;
-        
-        private System.DateTime dateAddedField;
-        
-        private string commentsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string AddedBy {
-            get {
-                return this.addedByField;
-            }
-            set {
-                this.addedByField = value;
-                this.RaisePropertyChanged("AddedBy");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public System.DateTime DateAdded {
-            get {
-                return this.dateAddedField;
-            }
-            set {
-                this.dateAddedField = value;
-                this.RaisePropertyChanged("DateAdded");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comments {
-            get {
-                return this.commentsField;
-            }
-            set {
-                this.commentsField = value;
-                this.RaisePropertyChanged("Comments");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Bins_Sizes_Get.xsd")]
-    public partial class ctError2 : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private string resultField;
-        
-        private string messageField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
-        public string Result {
-            get {
-                return this.resultField;
-            }
-            set {
-                this.resultField = value;
-                this.RaisePropertyChanged("Result");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("Message");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://bartec-systems.com/")]
-    public partial class ctPointBNG : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private decimal eastingField;
-        
-        private decimal northingField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Easting {
-            get {
-                return this.eastingField;
-            }
-            set {
-                this.eastingField = value;
-                this.RaisePropertyChanged("Easting");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Northing {
-            get {
-                return this.northingField;
-            }
-            set {
-                this.northingField = value;
-                this.RaisePropertyChanged("Northing");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://bartec-systems.com/")]
-    public partial class ctPointMetric : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private decimal latitudeField;
-        
-        private decimal longitudeField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Latitude {
-            get {
-                return this.latitudeField;
-            }
-            set {
-                this.latitudeField = value;
-                this.RaisePropertyChanged("Latitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public decimal Longitude {
-            get {
-                return this.longitudeField;
-            }
-            set {
-                this.longitudeField = value;
-                this.RaisePropertyChanged("Longitude");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://bartec-systems.com/")]
-    public partial class ctMapPointQuery : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private object itemField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("BNG", typeof(ctPointBNG), Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute("Metric", typeof(ctPointMetric), Order=0)]
-        public object Item {
-            get {
-                return this.itemField;
-            }
-            set {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://bartec-systems.com/")]
-    public partial class ctMapBox : object, System.ComponentModel.INotifyPropertyChanged {
-        
-        private ctMapPointQuery point1Field;
-        
-        private ctMapPointQuery point2Field;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctMapPointQuery Point1 {
-            get {
-                return this.point1Field;
-            }
-            set {
-                this.point1Field = value;
-                this.RaisePropertyChanged("Point1");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public ctMapPointQuery Point2 {
-            get {
-                return this.point2Field;
-            }
-            set {
-                this.point2Field = value;
-                this.RaisePropertyChanged("Point2");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.bartec-systems.com/Bins_Detail_Get.xsd")]
-    public partial class ctBin : object, System.ComponentModel.INotifyPropertyChanged {
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctBin", Namespace="http://www.bartec-systems.com/Premises_FutureCollections_Get.xsd")]
+    public partial class ctBin3 : object, System.ComponentModel.INotifyPropertyChanged {
         
         private string binIDField;
         
@@ -5586,7 +2891,2702 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_FutureCollections_Get.xsd")]
+    public partial class ctError17 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointMetric", Namespace="http://www.bartec-systems.com/ServiceRequests_Get.xsd")]
+    public partial class ctPointMetric3 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private decimal latitudeField;
+        
+        private decimal longitudeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Latitude {
+            get {
+                return this.latitudeField;
+            }
+            set {
+                this.latitudeField = value;
+                this.RaisePropertyChanged("Latitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Longitude {
+            get {
+                return this.longitudeField;
+            }
+            set {
+                this.longitudeField = value;
+                this.RaisePropertyChanged("Longitude");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointBNG", Namespace="http://www.bartec-systems.com/ServiceRequests_Get.xsd")]
+    public partial class ctPointBNG3 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private decimal eastingField;
+        
+        private decimal northingField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Easting {
+            get {
+                return this.eastingField;
+            }
+            set {
+                this.eastingField = value;
+                this.RaisePropertyChanged("Easting");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Northing {
+            get {
+                return this.northingField;
+            }
+            set {
+                this.northingField = value;
+                this.RaisePropertyChanged("Northing");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctMapPoint", Namespace="http://www.bartec-systems.com/ServiceRequests_Get.xsd")]
+    public partial class ctMapPoint2 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private ctPointBNG3 bNGField;
+        
+        private ctPointMetric3 metricField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public ctPointBNG3 BNG {
+            get {
+                return this.bNGField;
+            }
+            set {
+                this.bNGField = value;
+                this.RaisePropertyChanged("BNG");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public ctPointMetric3 Metric {
+            get {
+                return this.metricField;
+            }
+            set {
+                this.metricField = value;
+                this.RaisePropertyChanged("Metric");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/ServiceRequests_Get.xsd")]
+    public partial class ctRecordStamp14 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/ServiceRequests_Get.xsd")]
+    public partial class ctError16 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Streets_Detail_Get.xsd")]
+    public partial class ctRecordStamp13 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Streets_Detail_Get.xsd")]
+    public partial class ctError15 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Bins_Sizes_Get.xsd")]
+    public partial class ctRecordStamp12 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Bins_Sizes_Get.xsd")]
+    public partial class ctError14 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Streets_Get.xsd")]
+    public partial class ctRecordStamp11 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Streets_Get.xsd")]
+    public partial class ctError13 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.bartec-systems.com/ServiceRequests_Detail_Get.xsd")]
+    public partial class ctAddress : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string address1Field;
+        
+        private string address2Field;
+        
+        private string streetField;
+        
+        private string localityField;
+        
+        private string townField;
+        
+        private string postCodeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string Address1 {
+            get {
+                return this.address1Field;
+            }
+            set {
+                this.address1Field = value;
+                this.RaisePropertyChanged("Address1");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Address2 {
+            get {
+                return this.address2Field;
+            }
+            set {
+                this.address2Field = value;
+                this.RaisePropertyChanged("Address2");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Street {
+            get {
+                return this.streetField;
+            }
+            set {
+                this.streetField = value;
+                this.RaisePropertyChanged("Street");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string Locality {
+            get {
+                return this.localityField;
+            }
+            set {
+                this.localityField = value;
+                this.RaisePropertyChanged("Locality");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public string Town {
+            get {
+                return this.townField;
+            }
+            set {
+                this.townField = value;
+                this.RaisePropertyChanged("Town");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public string PostCode {
+            get {
+                return this.postCodeField;
+            }
+            set {
+                this.postCodeField = value;
+                this.RaisePropertyChanged("PostCode");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointMetric", Namespace="http://www.bartec-systems.com/ServiceRequests_Detail_Get.xsd")]
+    public partial class ctPointMetric2 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private decimal latitudeField;
+        
+        private decimal longitudeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Latitude {
+            get {
+                return this.latitudeField;
+            }
+            set {
+                this.latitudeField = value;
+                this.RaisePropertyChanged("Latitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Longitude {
+            get {
+                return this.longitudeField;
+            }
+            set {
+                this.longitudeField = value;
+                this.RaisePropertyChanged("Longitude");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointBNG", Namespace="http://www.bartec-systems.com/ServiceRequests_Detail_Get.xsd")]
+    public partial class ctPointBNG2 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private decimal eastingField;
+        
+        private decimal northingField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Easting {
+            get {
+                return this.eastingField;
+            }
+            set {
+                this.eastingField = value;
+                this.RaisePropertyChanged("Easting");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Northing {
+            get {
+                return this.northingField;
+            }
+            set {
+                this.northingField = value;
+                this.RaisePropertyChanged("Northing");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctMapPoint", Namespace="http://www.bartec-systems.com/ServiceRequests_Detail_Get.xsd")]
+    public partial class ctMapPoint1 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private ctPointBNG2 bNGField;
+        
+        private ctPointMetric2 metricField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public ctPointBNG2 BNG {
+            get {
+                return this.bNGField;
+            }
+            set {
+                this.bNGField = value;
+                this.RaisePropertyChanged("BNG");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public ctPointMetric2 Metric {
+            get {
+                return this.metricField;
+            }
+            set {
+                this.metricField = value;
+                this.RaisePropertyChanged("Metric");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/ServiceRequests_Detail_Get.xsd")]
+    public partial class ctRecordStamp10 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/ServiceRequests_Detail_Get.xsd")]
+    public partial class ctError12 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Bins_Get.xsd")]
+    public partial class ctRecordStamp9 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctBin", Namespace="http://www.bartec-systems.com/Bins_Get.xsd")]
+    public partial class ctBin2 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string binIDField;
+        
+        private string serialNumberField;
+        
+        private string binTypeField;
+        
+        private string binSizeField;
+        
+        private string binStatusField;
+        
+        private string barcodeField;
+        
+        private string rFIDField;
+        
+        private object uPRNField;
+        
+        private ctRecordStamp9 recordStampField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string BinID {
+            get {
+                return this.binIDField;
+            }
+            set {
+                this.binIDField = value;
+                this.RaisePropertyChanged("BinID");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string SerialNumber {
+            get {
+                return this.serialNumberField;
+            }
+            set {
+                this.serialNumberField = value;
+                this.RaisePropertyChanged("SerialNumber");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string BinType {
+            get {
+                return this.binTypeField;
+            }
+            set {
+                this.binTypeField = value;
+                this.RaisePropertyChanged("BinType");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string BinSize {
+            get {
+                return this.binSizeField;
+            }
+            set {
+                this.binSizeField = value;
+                this.RaisePropertyChanged("BinSize");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public string BinStatus {
+            get {
+                return this.binStatusField;
+            }
+            set {
+                this.binStatusField = value;
+                this.RaisePropertyChanged("BinStatus");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public string Barcode {
+            get {
+                return this.barcodeField;
+            }
+            set {
+                this.barcodeField = value;
+                this.RaisePropertyChanged("Barcode");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public string RFID {
+            get {
+                return this.rFIDField;
+            }
+            set {
+                this.rFIDField = value;
+                this.RaisePropertyChanged("RFID");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public object UPRN {
+            get {
+                return this.uPRNField;
+            }
+            set {
+                this.uPRNField = value;
+                this.RaisePropertyChanged("UPRN");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        public ctRecordStamp9 RecordStamp {
+            get {
+                return this.recordStampField;
+            }
+            set {
+                this.recordStampField = value;
+                this.RaisePropertyChanged("RecordStamp");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Bins_Get.xsd")]
+    public partial class ctError11 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_Rounds_Get.xsd")]
+    public partial class ctRecordStamp8 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctBin", Namespace="http://www.bartec-systems.com/Premises_Rounds_Get.xsd")]
+    public partial class ctBin1 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string binIDField;
+        
+        private string serialNumberField;
+        
+        private string binTypeField;
+        
+        private string binSizeField;
+        
+        private string binStatusField;
+        
+        private string barcodeField;
+        
+        private string rFIDField;
+        
+        private object uPRNField;
+        
+        private ctRecordStamp8 recordStampField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string BinID {
+            get {
+                return this.binIDField;
+            }
+            set {
+                this.binIDField = value;
+                this.RaisePropertyChanged("BinID");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string SerialNumber {
+            get {
+                return this.serialNumberField;
+            }
+            set {
+                this.serialNumberField = value;
+                this.RaisePropertyChanged("SerialNumber");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string BinType {
+            get {
+                return this.binTypeField;
+            }
+            set {
+                this.binTypeField = value;
+                this.RaisePropertyChanged("BinType");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string BinSize {
+            get {
+                return this.binSizeField;
+            }
+            set {
+                this.binSizeField = value;
+                this.RaisePropertyChanged("BinSize");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public string BinStatus {
+            get {
+                return this.binStatusField;
+            }
+            set {
+                this.binStatusField = value;
+                this.RaisePropertyChanged("BinStatus");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public string Barcode {
+            get {
+                return this.barcodeField;
+            }
+            set {
+                this.barcodeField = value;
+                this.RaisePropertyChanged("Barcode");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public string RFID {
+            get {
+                return this.rFIDField;
+            }
+            set {
+                this.rFIDField = value;
+                this.RaisePropertyChanged("RFID");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public object UPRN {
+            get {
+                return this.uPRNField;
+            }
+            set {
+                this.uPRNField = value;
+                this.RaisePropertyChanged("UPRN");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        public ctRecordStamp8 RecordStamp {
+            get {
+                return this.recordStampField;
+            }
+            set {
+                this.recordStampField = value;
+                this.RaisePropertyChanged("RecordStamp");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_Rounds_Get.xsd")]
+    public partial class ctError10 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Bins_Detail_Get.xsd")]
+    public partial class ctError9 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Bins_Detail_Get.xsd")]
+    public partial class ctRecordStamp7 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_RoundSheets_Get.xsd")]
+    public partial class ctRecordStamp6 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_RoundSheets_Get.xsd")]
+    public partial class ctError8 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_Bins_Rounds_Defaults_Get.xsd")]
+    public partial class ctRecordStamp5 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_Bins_Rounds_Defaults_Get.xsd")]
+    public partial class ctError7 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_ServiceLocation_Definition_Get.xsd")]
+    public partial class ctError6 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_ServiceLocation_Definition_Get.xsd")]
+    public partial class ctRecordStamp4 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Premises_Attributes_Get.xsd")]
+    public partial class ctRecordStamp3 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Premises_Attributes_Get.xsd")]
+    public partial class ctError5 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Vehicles_Get.xsd")]
+    public partial class ctError4 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Bins_Types_Get.xsd")]
+    public partial class ctRecordStamp2 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Bins_Types_Get.xsd")]
+    public partial class ctError3 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctRecordStamp", Namespace="http://www.bartec-systems.com/Streets_Event_Types.xsd")]
+    public partial class ctRecordStamp1 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string addedByField;
+        
+        private System.DateTime dateAddedField;
+        
+        private string commentsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string AddedBy {
+            get {
+                return this.addedByField;
+            }
+            set {
+                this.addedByField = value;
+                this.RaisePropertyChanged("AddedBy");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public System.DateTime DateAdded {
+            get {
+                return this.dateAddedField;
+            }
+            set {
+                this.dateAddedField = value;
+                this.RaisePropertyChanged("DateAdded");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comments {
+            get {
+                return this.commentsField;
+            }
+            set {
+                this.commentsField = value;
+                this.RaisePropertyChanged("Comments");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctError", Namespace="http://www.bartec-systems.com/Streets_Event_Types.xsd")]
+    public partial class ctError2 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string resultField;
+        
+        private string messageField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string Result {
+            get {
+                return this.resultField;
+            }
+            set {
+                this.resultField = value;
+                this.RaisePropertyChanged("Result");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("Message");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointMetric", Namespace="http://www.bartec-systems.com/Premises_Events_Create.xsd")]
+    public partial class ctPointMetric1 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private decimal latitudeField;
+        
+        private decimal longitudeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Latitude {
+            get {
+                return this.latitudeField;
+            }
+            set {
+                this.latitudeField = value;
+                this.RaisePropertyChanged("Latitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Longitude {
+            get {
+                return this.longitudeField;
+            }
+            set {
+                this.longitudeField = value;
+                this.RaisePropertyChanged("Longitude");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(TypeName="ctPointBNG", Namespace="http://www.bartec-systems.com/Premises_Events_Create.xsd")]
+    public partial class ctPointBNG1 : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private decimal eastingField;
+        
+        private decimal northingField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Easting {
+            get {
+                return this.eastingField;
+            }
+            set {
+                this.eastingField = value;
+                this.RaisePropertyChanged("Easting");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Northing {
+            get {
+                return this.northingField;
+            }
+            set {
+                this.northingField = value;
+                this.RaisePropertyChanged("Northing");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.bartec-systems.com/Premises_Events_Create.xsd")]
+    public partial class ctMapPoint : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private ctPointBNG1 bNGField;
+        
+        private ctPointMetric1 metricField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public ctPointBNG1 BNG {
+            get {
+                return this.bNGField;
+            }
+            set {
+                this.bNGField = value;
+                this.RaisePropertyChanged("BNG");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public ctPointMetric1 Metric {
+            get {
+                return this.metricField;
+            }
+            set {
+                this.metricField = value;
+                this.RaisePropertyChanged("Metric");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://bartec-systems.com/")]
+    public partial class ctPointBNG : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private decimal eastingField;
+        
+        private decimal northingField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Easting {
+            get {
+                return this.eastingField;
+            }
+            set {
+                this.eastingField = value;
+                this.RaisePropertyChanged("Easting");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Northing {
+            get {
+                return this.northingField;
+            }
+            set {
+                this.northingField = value;
+                this.RaisePropertyChanged("Northing");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://bartec-systems.com/")]
+    public partial class ctPointMetric : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private decimal latitudeField;
+        
+        private decimal longitudeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Latitude {
+            get {
+                return this.latitudeField;
+            }
+            set {
+                this.latitudeField = value;
+                this.RaisePropertyChanged("Latitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal Longitude {
+            get {
+                return this.longitudeField;
+            }
+            set {
+                this.longitudeField = value;
+                this.RaisePropertyChanged("Longitude");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://bartec-systems.com/")]
+    public partial class ctMapPointQuery : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private object itemField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("BNG", typeof(ctPointBNG), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("Metric", typeof(ctPointMetric), Order=0)]
+        public object Item {
+            get {
+                return this.itemField;
+            }
+            set {
+                this.itemField = value;
+                this.RaisePropertyChanged("Item");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://bartec-systems.com/")]
+    public partial class ctMapBox : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private ctMapPointQuery point1Field;
+        
+        private ctMapPointQuery point2Field;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public ctMapPointQuery Point1 {
+            get {
+                return this.point1Field;
+            }
+            set {
+                this.point1Field = value;
+                this.RaisePropertyChanged("Point1");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public ctMapPointQuery Point2 {
+            get {
+                return this.point2Field;
+            }
+            set {
+                this.point2Field = value;
+                this.RaisePropertyChanged("Point2");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.bartec-systems.com/Bins_Detail_Get.xsd")]
+    public partial class ctBin : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string binIDField;
+        
+        private string serialNumberField;
+        
+        private string binTypeField;
+        
+        private string binSizeField;
+        
+        private string binStatusField;
+        
+        private string barcodeField;
+        
+        private string rFIDField;
+        
+        private object uPRNField;
+        
+        private ctRecordStamp7 recordStampField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
+        public string BinID {
+            get {
+                return this.binIDField;
+            }
+            set {
+                this.binIDField = value;
+                this.RaisePropertyChanged("BinID");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string SerialNumber {
+            get {
+                return this.serialNumberField;
+            }
+            set {
+                this.serialNumberField = value;
+                this.RaisePropertyChanged("SerialNumber");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string BinType {
+            get {
+                return this.binTypeField;
+            }
+            set {
+                this.binTypeField = value;
+                this.RaisePropertyChanged("BinType");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string BinSize {
+            get {
+                return this.binSizeField;
+            }
+            set {
+                this.binSizeField = value;
+                this.RaisePropertyChanged("BinSize");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public string BinStatus {
+            get {
+                return this.binStatusField;
+            }
+            set {
+                this.binStatusField = value;
+                this.RaisePropertyChanged("BinStatus");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public string Barcode {
+            get {
+                return this.barcodeField;
+            }
+            set {
+                this.barcodeField = value;
+                this.RaisePropertyChanged("Barcode");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public string RFID {
+            get {
+                return this.rFIDField;
+            }
+            set {
+                this.rFIDField = value;
+                this.RaisePropertyChanged("RFID");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public object UPRN {
+            get {
+                return this.uPRNField;
+            }
+            set {
+                this.uPRNField = value;
+                this.RaisePropertyChanged("UPRN");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        public ctRecordStamp7 RecordStamp {
+            get {
+                return this.recordStampField;
+            }
+            set {
+                this.recordStampField = value;
+                this.RaisePropertyChanged("RecordStamp");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5632,7 +5632,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5678,7 +5678,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5745,7 +5745,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5805,7 +5805,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5884,7 +5884,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5930,18 +5930,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Bins_Detail_Get.xsd")]
     public partial class Bins_Detail_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError18 errorField;
+        private ctError9 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError18 Error {
+        public ctError9 Error {
             get {
                 return this.errorField;
             }
@@ -6001,14 +6001,14 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Bins_Get.xsd")]
     public partial class Bins_GetResult : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctBin1[] binField;
+        private ctBin2[] binField;
         
         private Bins_GetResultErrors errorsField;
         
@@ -6016,7 +6016,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Bin", Order=0)]
-        public ctBin1[] Bin {
+        public ctBin2[] Bin {
             get {
                 return this.binField;
             }
@@ -6061,18 +6061,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Bins_Get.xsd")]
     public partial class Bins_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError5 errorField;
+        private ctError11 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError5 Error {
+        public ctError11 Error {
             get {
                 return this.errorField;
             }
@@ -6157,7 +6157,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6217,20 +6217,20 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Bins_Sizes_Get.xsd")]
     public partial class Bins_Sizes_GetResultBinSizes : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctRecordStamp1 recordStampField;
+        private ctRecordStamp12 recordStampField;
         
         private string binSizeField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctRecordStamp1 RecordStamp {
+        public ctRecordStamp12 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -6263,18 +6263,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Bins_Sizes_Get.xsd")]
     public partial class Bins_Sizes_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError2 errorField;
+        private ctError14 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError2 Error {
+        public ctError14 Error {
             get {
                 return this.errorField;
             }
@@ -6330,7 +6330,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6390,20 +6390,20 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Bins_Types_Get.xsd")]
     public partial class Bins_Types_GetResultBinType : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctRecordStamp11 recordStampField;
+        private ctRecordStamp2 recordStampField;
         
         private object binTypeField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctRecordStamp11 RecordStamp {
+        public ctRecordStamp2 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -6436,18 +6436,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Bins_Types_Get.xsd")]
     public partial class Bins_Types_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError13 errorField;
+        private ctError3 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError13 Error {
+        public ctError3 Error {
             get {
                 return this.errorField;
             }
@@ -6503,7 +6503,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6563,7 +6563,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6574,15 +6574,15 @@ namespace Bartec.WasteCollector.Service {
         
         private string uSRNField;
         
-        private ctAddress addressField;
+        private ctAddress1 addressField;
         
         private string userLabelField;
         
         private string accountNumberField;
         
-        private ctMapPoint3 locationField;
+        private ctMapPoint4 locationField;
         
-        private ctRecordStamp17 recordStampField;
+        private ctRecordStamp21 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
@@ -6610,7 +6610,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public ctAddress Address {
+        public ctAddress1 Address {
             get {
                 return this.addressField;
             }
@@ -6646,7 +6646,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public ctMapPoint3 Location {
+        public ctMapPoint4 Location {
             get {
                 return this.locationField;
             }
@@ -6658,7 +6658,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-        public ctRecordStamp17 RecordStamp {
+        public ctRecordStamp21 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -6679,18 +6679,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Premises_Get.xsd")]
     public partial class Premises_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError20 errorField;
+        private ctError25 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError20 Error {
+        public ctError25 Error {
             get {
                 return this.errorField;
             }
@@ -6805,7 +6805,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6818,7 +6818,7 @@ namespace Bartec.WasteCollector.Service {
         
         private decimal uSRNField;
         
-        private ctAddress1 addressField;
+        private ctAddress2 addressField;
         
         private string commentsField;
         
@@ -6826,7 +6826,7 @@ namespace Bartec.WasteCollector.Service {
         
         private string wardNameField;
         
-        private ctMapPoint4 locationField;
+        private ctMapPoint6 locationField;
         
         private Premises_Detail_GetResultAttributes attributesField;
         
@@ -6834,7 +6834,7 @@ namespace Bartec.WasteCollector.Service {
         
         private Premises_Detail_GetResultDocuments documentsField;
         
-        private ctRecordStamp19 recordStampField;
+        private ctRecordStamp26 recordStampField;
         
         private Premises_Detail_GetResultErrors errorsField;
         
@@ -6876,7 +6876,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public ctAddress1 Address {
+        public ctAddress2 Address {
             get {
                 return this.addressField;
             }
@@ -6924,7 +6924,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-        public ctMapPoint4 Location {
+        public ctMapPoint6 Location {
             get {
                 return this.locationField;
             }
@@ -6972,7 +6972,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=11)]
-        public ctRecordStamp19 RecordStamp {
+        public ctRecordStamp26 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -7005,7 +7005,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7051,7 +7051,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7062,7 +7062,7 @@ namespace Bartec.WasteCollector.Service {
         
         private bool systemAttributeField;
         
-        private ctRecordStamp19 recordStampField;
+        private ctRecordStamp26 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -7090,7 +7090,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public ctRecordStamp19 RecordStamp {
+        public ctRecordStamp26 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -7111,7 +7111,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7157,7 +7157,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7170,7 +7170,7 @@ namespace Bartec.WasteCollector.Service {
         
         private string serviceLocationTypeField;
         
-        private ctRecordStamp19 recordStampField;
+        private ctRecordStamp26 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -7210,7 +7210,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public ctRecordStamp19 RecordStamp {
+        public ctRecordStamp26 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -7231,7 +7231,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7277,7 +7277,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7290,7 +7290,7 @@ namespace Bartec.WasteCollector.Service {
         
         private string eventIDField;
         
-        private ctRecordStamp19 recordStampField;
+        private ctRecordStamp26 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -7330,7 +7330,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public ctRecordStamp19 RecordStamp {
+        public ctRecordStamp26 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -7351,18 +7351,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Premises_Detail_Get.xsd")]
     public partial class Premises_Detail_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError22 errorField;
+        private ctError30 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError22 Error {
+        public ctError30 Error {
             get {
                 return this.errorField;
             }
@@ -7422,14 +7422,14 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Premises_Bins_Rounds_Defaults_Get.xsd")]
     public partial class Premises_Bins_Rounds_Defaults_GetResult : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctRecordStamp9 recordStampField;
+        private ctRecordStamp5 recordStampField;
         
         private Premises_Bins_Rounds_Defaults_GetResultBinTypes[] binTypesField;
         
@@ -7439,7 +7439,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctRecordStamp9 RecordStamp {
+        public ctRecordStamp5 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -7496,7 +7496,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7556,7 +7556,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7567,7 +7567,7 @@ namespace Bartec.WasteCollector.Service {
         
         private string roundPlanField;
         
-        private ctRecordStamp9 recordStampField;
+        private ctRecordStamp5 recordStampField;
         
         private string recordCountField;
         
@@ -7597,7 +7597,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public ctRecordStamp9 RecordStamp {
+        public ctRecordStamp5 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -7630,18 +7630,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Premises_Bins_Rounds_Defaults_Get.xsd")]
     public partial class Premises_Bins_Rounds_Defaults_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError11 errorField;
+        private ctError7 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError11 Error {
+        public ctError7 Error {
             get {
                 return this.errorField;
             }
@@ -7706,7 +7706,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7766,7 +7766,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7779,7 +7779,7 @@ namespace Bartec.WasteCollector.Service {
         
         private bool systemAttributeField;
         
-        private ctRecordStamp14 recordStampField;
+        private ctRecordStamp18 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -7819,7 +7819,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public ctRecordStamp14 RecordStamp {
+        public ctRecordStamp18 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -7840,18 +7840,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Premises_AttributeDefs_Get.xsd")]
     public partial class Premises_AttributeDefs_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError17 errorField;
+        private ctError21 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError17 Error {
+        public ctError21 Error {
             get {
                 return this.errorField;
             }
@@ -7907,7 +7907,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7967,7 +7967,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -7984,7 +7984,7 @@ namespace Bartec.WasteCollector.Service {
         
         private System.DateTime confirmationDateField;
         
-        private ctRecordStamp2 recordStampField;
+        private ctRecordStamp3 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -8048,7 +8048,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public ctRecordStamp2 RecordStamp {
+        public ctRecordStamp3 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -8069,18 +8069,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Premises_Attributes_Get.xsd")]
     public partial class Premises_Attributes_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError4 errorField;
+        private ctError5 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError4 Error {
+        public ctError5 Error {
             get {
                 return this.errorField;
             }
@@ -8140,18 +8140,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/ServiceRequest_Statuses_Create_Response.xsd")]
     public partial class Premises_Attributes_CreateResult : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError15 errorField;
+        private ctError20 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError15 Error {
+        public ctError20 Error {
             get {
                 return this.errorField;
             }
@@ -8223,18 +8223,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/ServiceRequest_Statuses_Create_Response.xsd")]
     public partial class Premises_Attributes_UpdateResult : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError15 errorField;
+        private ctError20 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError15 Error {
+        public ctError20 Error {
             get {
                 return this.errorField;
             }
@@ -8306,18 +8306,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/ServiceRequest_Statuses_Create_Response.xsd")]
     public partial class Premises_Attributes_DeleteResult : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError15 errorField;
+        private ctError20 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError15 Error {
+        public ctError20 Error {
             get {
                 return this.errorField;
             }
@@ -8381,7 +8381,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8441,7 +8441,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8460,7 +8460,7 @@ namespace Bartec.WasteCollector.Service {
         
         private decimal distanceField;
         
-        private ctMapPoint eventLocationField;
+        private ctMapPoint5 eventLocationField;
         
         private Premises_Events_GetResultEventRoundSheet roundSheetField;
         
@@ -8472,7 +8472,7 @@ namespace Bartec.WasteCollector.Service {
         
         private bool hasMetaDataField;
         
-        private ctRecordStamp4 ctRecordStampField;
+        private ctRecordStamp23 ctRecordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -8548,7 +8548,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=6)]
-        public ctMapPoint EventLocation {
+        public ctMapPoint5 EventLocation {
             get {
                 return this.eventLocationField;
             }
@@ -8620,7 +8620,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=12)]
-        public ctRecordStamp4 ctRecordStamp {
+        public ctRecordStamp23 ctRecordStamp {
             get {
                 return this.ctRecordStampField;
             }
@@ -8641,7 +8641,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8673,18 +8673,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Premises_Events_Get.xsd")]
     public partial class Premises_Events_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError6 errorField;
+        private ctError27 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError6 Error {
+        public ctError27 Error {
             get {
                 return this.errorField;
             }
@@ -8832,14 +8832,14 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Premises_Events_Types_Get.xsd")]
     public partial class Premises_Events_Types_GetResult : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctRecordStamp13 recordStampField;
+        private ctRecordStamp24 recordStampField;
         
         private Premises_Events_Types_GetResultEventTypes[] eventTypesField;
         
@@ -8849,7 +8849,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctRecordStamp13 RecordStamp {
+        public ctRecordStamp24 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -8906,7 +8906,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8980,7 +8980,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -8991,7 +8991,7 @@ namespace Bartec.WasteCollector.Service {
         
         private string subEventTypeField;
         
-        private ctRecordStamp13 recordStampField;
+        private ctRecordStamp24 recordStampField;
         
         private string recordCountField;
         
@@ -9021,7 +9021,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public ctRecordStamp13 RecordStamp {
+        public ctRecordStamp24 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -9054,7 +9054,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9063,7 +9063,7 @@ namespace Bartec.WasteCollector.Service {
         
         private string binTypeField;
         
-        private ctRecordStamp13 recordStampField;
+        private ctRecordStamp24 recordStampField;
         
         private string recordCountField;
         
@@ -9081,7 +9081,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public ctRecordStamp13 RecordStamp {
+        public ctRecordStamp24 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -9114,18 +9114,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Premises_Events_Types_Get.xsd")]
     public partial class Premises_Events_Types_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError16 errorField;
+        private ctError28 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError16 Error {
+        public ctError28 Error {
             get {
                 return this.errorField;
             }
@@ -9181,7 +9181,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9194,7 +9194,7 @@ namespace Bartec.WasteCollector.Service {
         
         private int subEventIDField;
         
-        private ctMapPoint2 eventLocationField;
+        private ctMapPoint eventLocationField;
         
         private int binIDField;
         
@@ -9256,7 +9256,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public ctMapPoint2 EventLocation {
+        public ctMapPoint EventLocation {
             get {
                 return this.eventLocationField;
             }
@@ -9409,18 +9409,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/ServiceRequest_Statuses_Create_Response.xsd")]
     public partial class Premises_Events_CreateResult : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError15 errorField;
+        private ctError20 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError15 Error {
+        public ctError20 Error {
             get {
                 return this.errorField;
             }
@@ -9481,7 +9481,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9541,7 +9541,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9587,7 +9587,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9745,20 +9745,20 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Premises_Rounds_Get.xsd")]
     public partial class Premises_Rounds_GetResultRoundsRoundBins : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctBin2[] binField;
+        private ctBin1[] binField;
         
         private string recordCountField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Bin", Order=0)]
-        public ctBin2[] Bin {
+        public ctBin1[] Bin {
             get {
                 return this.binField;
             }
@@ -9791,20 +9791,20 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Premises_Rounds_Get.xsd")]
     public partial class Premises_Rounds_GetResultBins : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctBin2[] binField;
+        private ctBin1[] binField;
         
         private string recordCountField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Bin", Order=0)]
-        public ctBin2[] Bin {
+        public ctBin1[] Bin {
             get {
                 return this.binField;
             }
@@ -9837,7 +9837,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9908,7 +9908,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9968,7 +9968,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -9999,7 +9999,7 @@ namespace Bartec.WasteCollector.Service {
         
         private System.DateTime plannedExecutionDateField;
         
-        private ctRecordStamp18 recordStampField;
+        private ctRecordStamp6 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
@@ -10147,7 +10147,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=12)]
-        public ctRecordStamp18 RecordStamp {
+        public ctRecordStamp6 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -10168,18 +10168,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Premises_RoundSheets_Get.xsd")]
     public partial class Rounds_RoundSheets_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError21 errorField;
+        private ctError8 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError21 Error {
+        public ctError8 Error {
             get {
                 return this.errorField;
             }
@@ -10277,7 +10277,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10337,7 +10337,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10362,7 +10362,7 @@ namespace Bartec.WasteCollector.Service {
         
         private Rounds_RoundPlans_GetResultRoundPlanItems itemsField;
         
-        private ctRecordStamp21 recordStampField;
+        private ctRecordStamp22 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
@@ -10474,7 +10474,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=9)]
-        public ctRecordStamp21 RecordStamp {
+        public ctRecordStamp22 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -10495,7 +10495,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10541,18 +10541,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Rounds_RoundPlans_Get.xsd")]
     public partial class Rounds_RoundPlans_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError24 errorField;
+        private ctError26 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError24 Error {
+        public ctError26 Error {
             get {
                 return this.errorField;
             }
@@ -10636,7 +10636,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10647,11 +10647,11 @@ namespace Bartec.WasteCollector.Service {
         
         private string uPRNField;
         
-        private ctAddress2 premisesAddressField;
+        private ctAddress premisesAddressField;
         
-        private ctMapPoint5 premisesLocationField;
+        private ctMapPoint1 premisesLocationField;
         
-        private ctMapPoint5 requestLocationField;
+        private ctMapPoint1 requestLocationField;
         
         private string contactNameField;
         
@@ -10673,7 +10673,7 @@ namespace Bartec.WasteCollector.Service {
         
         private ServiceRequests_Detail_GetResultExtendedData extendedDataField;
         
-        private ctRecordStamp23 recordStampField;
+        private ctRecordStamp10 recordStampField;
         
         private ServiceRequests_Detail_GetResultErrors errorsField;
         
@@ -10703,7 +10703,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public ctAddress2 PremisesAddress {
+        public ctAddress PremisesAddress {
             get {
                 return this.premisesAddressField;
             }
@@ -10715,7 +10715,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public ctMapPoint5 PremisesLocation {
+        public ctMapPoint1 PremisesLocation {
             get {
                 return this.premisesLocationField;
             }
@@ -10727,7 +10727,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public ctMapPoint5 RequestLocation {
+        public ctMapPoint1 RequestLocation {
             get {
                 return this.requestLocationField;
             }
@@ -10859,7 +10859,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=15)]
-        public ctRecordStamp23 RecordStamp {
+        public ctRecordStamp10 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -10892,7 +10892,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10938,7 +10938,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -10947,7 +10947,7 @@ namespace Bartec.WasteCollector.Service {
         
         private string noteDetailField;
         
-        private ctRecordStamp23 recordStampField;
+        private ctRecordStamp10 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -10963,7 +10963,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public ctRecordStamp23 RecordStamp {
+        public ctRecordStamp10 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -10984,7 +10984,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11030,7 +11030,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11076,7 +11076,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11136,18 +11136,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/ServiceRequests_Detail_Get.xsd")]
     public partial class ServiceRequests_Detail_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError26 errorField;
+        private ctError12 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError26 Error {
+        public ctError12 Error {
             get {
                 return this.errorField;
             }
@@ -11207,7 +11207,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11267,7 +11267,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11278,9 +11278,9 @@ namespace Bartec.WasteCollector.Service {
         
         private string uPRNField;
         
-        private ctMapPoint6 premisesLocationField;
+        private ctMapPoint2 premisesLocationField;
         
-        private ctMapPoint6 requestLocationField;
+        private ctMapPoint2 requestLocationField;
         
         private System.DateTime dateRequestedField;
         
@@ -11290,7 +11290,7 @@ namespace Bartec.WasteCollector.Service {
         
         private string externalReferenceField;
         
-        private ctRecordStamp24 recordStampField;
+        private ctRecordStamp14 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -11318,7 +11318,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public ctMapPoint6 PremisesLocation {
+        public ctMapPoint2 PremisesLocation {
             get {
                 return this.premisesLocationField;
             }
@@ -11330,7 +11330,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public ctMapPoint6 RequestLocation {
+        public ctMapPoint2 RequestLocation {
             get {
                 return this.requestLocationField;
             }
@@ -11390,7 +11390,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=8)]
-        public ctRecordStamp24 RecordStamp {
+        public ctRecordStamp14 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -11411,18 +11411,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/ServiceRequests_Get.xsd")]
     public partial class ServiceRequests_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError27 errorField;
+        private ctError16 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError27 Error {
+        public ctError16 Error {
             get {
                 return this.errorField;
             }
@@ -11521,7 +11521,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11581,7 +11581,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11592,7 +11592,7 @@ namespace Bartec.WasteCollector.Service {
         
         private ServiceRequests_Types_GetResultServiceRequestTypeStatuses statusesField;
         
-        private ctRecordStamp22 recordStampField;
+        private ctRecordStamp16 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -11620,7 +11620,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public ctRecordStamp22 RecordStamp {
+        public ctRecordStamp16 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -11641,7 +11641,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11687,7 +11687,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11698,7 +11698,7 @@ namespace Bartec.WasteCollector.Service {
         
         private string statusField;
         
-        private ctRecordStamp22 recordStampField;
+        private ctRecordStamp16 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
@@ -11726,7 +11726,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public ctRecordStamp22 RecordStamp {
+        public ctRecordStamp16 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -11747,18 +11747,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/ServiceRequests_Types_Get.xsd")]
     public partial class ServiceRequests_Types_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError25 errorField;
+        private ctError18 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError25 Error {
+        public ctError18 Error {
             get {
                 return this.errorField;
             }
@@ -11814,7 +11814,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11874,7 +11874,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -11913,7 +11913,7 @@ namespace Bartec.WasteCollector.Service {
         
         private string txUserNameField;
         
-        private ctRecordStamp6 recordStampField;
+        private ctRecordStamp25 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
@@ -12109,7 +12109,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=16)]
-        public ctRecordStamp6 RecordStamp {
+        public ctRecordStamp25 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -12130,18 +12130,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/ServiceRequests_History_Get.xsd")]
     public partial class ServiceRequests_History_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError8 errorField;
+        private ctError29 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError8 Error {
+        public ctError29 Error {
             get {
                 return this.errorField;
             }
@@ -12224,7 +12224,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -12284,20 +12284,20 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/ServiceRequest_Statuses_Get.xsd")]
     public partial class ServiceRequest_Statuses_GetResultServiceRequestStatus : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctRecordStamp26 recordStampField;
+        private ctRecordStamp20 recordStampField;
         
         private string statusNameField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctRecordStamp26 RecordStamp {
+        public ctRecordStamp20 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -12330,18 +12330,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/ServiceRequest_Statuses_Get.xsd")]
     public partial class ServiceRequest_Statuses_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError30 errorField;
+        private ctError24 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError30 Error {
+        public ctError24 Error {
             get {
                 return this.errorField;
             }
@@ -12401,7 +12401,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -12422,7 +12422,7 @@ namespace Bartec.WasteCollector.Service {
         
         private Streets_Detail_GetResultDocuments documentsField;
         
-        private ctRecordStamp10 recordStampField;
+        private ctRecordStamp13 recordStampField;
         
         private Streets_Detail_GetResultErrors errorsField;
         
@@ -12512,7 +12512,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=7)]
-        public ctRecordStamp10 RecordStamp {
+        public ctRecordStamp13 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -12545,7 +12545,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -12591,7 +12591,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -12602,7 +12602,7 @@ namespace Bartec.WasteCollector.Service {
         
         private bool systemAttributeField;
         
-        private ctRecordStamp10 recordStampField;
+        private ctRecordStamp13 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -12630,7 +12630,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public ctRecordStamp10 RecordStamp {
+        public ctRecordStamp13 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -12651,7 +12651,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -12697,7 +12697,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -12710,7 +12710,7 @@ namespace Bartec.WasteCollector.Service {
         
         private object eventIDField;
         
-        private ctRecordStamp10 recordStampField;
+        private ctRecordStamp13 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -12750,7 +12750,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public ctRecordStamp10 RecordStamp {
+        public ctRecordStamp13 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -12771,18 +12771,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Streets_Detail_Get.xsd")]
     public partial class Streets_Detail_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError12 errorField;
+        private ctError15 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError12 Error {
+        public ctError15 Error {
             get {
                 return this.errorField;
             }
@@ -12842,7 +12842,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -12902,7 +12902,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -12915,7 +12915,7 @@ namespace Bartec.WasteCollector.Service {
         
         private string uSRNField;
         
-        private ctMapPoint1 eventLocationField;
+        private ctMapPoint3 eventLocationField;
         
         private string deviceNameField;
         
@@ -12925,7 +12925,7 @@ namespace Bartec.WasteCollector.Service {
         
         private string binTypesField;
         
-        private ctRecordStamp5 recordStampField;
+        private ctRecordStamp19 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -12965,7 +12965,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public ctMapPoint1 EventLocation {
+        public ctMapPoint3 EventLocation {
             get {
                 return this.eventLocationField;
             }
@@ -13025,7 +13025,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=8)]
-        public ctRecordStamp5 RecordStamp {
+        public ctRecordStamp19 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -13046,18 +13046,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Streets_Events_Get.xsd")]
     public partial class Streets_Events_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError7 errorField;
+        private ctError22 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError7 Error {
+        public ctError22 Error {
             get {
                 return this.errorField;
             }
@@ -13148,7 +13148,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13208,7 +13208,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13219,7 +13219,7 @@ namespace Bartec.WasteCollector.Service {
         
         private bool systemEventField;
         
-        private ctRecordStamp12 recordStampField;
+        private ctRecordStamp1 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -13247,7 +13247,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public ctRecordStamp12 RecordStamp {
+        public ctRecordStamp1 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -13268,18 +13268,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Streets_Event_Types.xsd")]
     public partial class Streets_Events_Types_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError14 errorField;
+        private ctError2 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError14 Error {
+        public ctError2 Error {
             get {
                 return this.errorField;
             }
@@ -13335,7 +13335,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13395,7 +13395,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13412,7 +13412,7 @@ namespace Bartec.WasteCollector.Service {
         
         private object userDefinedNameField;
         
-        private ctRecordStamp20 recordStampField;
+        private ctRecordStamp11 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
@@ -13476,7 +13476,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=5)]
-        public ctRecordStamp20 RecordStamp {
+        public ctRecordStamp11 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -13497,18 +13497,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Streets_Get.xsd")]
     public partial class Streets_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError23 errorField;
+        private ctError13 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError23 Error {
+        public ctError13 Error {
             get {
                 return this.errorField;
             }
@@ -13581,7 +13581,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13697,7 +13697,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13757,7 +13757,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13789,7 +13789,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13821,7 +13821,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13867,7 +13867,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13927,7 +13927,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -13973,7 +13973,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14005,7 +14005,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14077,18 +14077,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/ServiceRequest_Statuses_Create_Response.xsd")]
     public partial class ServiceRequest_Statuses_CreateResult : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError15 errorField;
+        private ctError20 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError15 Error {
+        public ctError20 Error {
             get {
                 return this.errorField;
             }
@@ -14160,18 +14160,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/ServiceRequest_Statuses_Create_Response.xsd")]
     public partial class ServiceRequest_Statuses_UpdateResult : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError15 errorField;
+        private ctError20 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError15 Error {
+        public ctError20 Error {
             get {
                 return this.errorField;
             }
@@ -14243,18 +14243,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/ServiceRequest_Statuses_Create_Response.xsd")]
     public partial class ServiceRequest_Statuses_DeleteResult : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError15 errorField;
+        private ctError20 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError15 Error {
+        public ctError20 Error {
             get {
                 return this.errorField;
             }
@@ -14318,18 +14318,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/ServiceRequest_Statuses_Create_Response.xsd")]
     public partial class ServiceRequest_Status_UpdateResult : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError15 errorField;
+        private ctError20 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError15 Error {
+        public ctError20 Error {
             get {
                 return this.errorField;
             }
@@ -14393,18 +14393,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/ServiceRequest_Statuses_Create_Response.xsd")]
     public partial class ServiceRequest_Note_CreateResult : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError15 errorField;
+        private ctError20 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError15 Error {
+        public ctError20 Error {
             get {
                 return this.errorField;
             }
@@ -14472,7 +14472,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14518,7 +14518,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14529,7 +14529,7 @@ namespace Bartec.WasteCollector.Service {
         
         private string locationTypeField;
         
-        private ctRecordStamp7 recordStampField;
+        private ctRecordStamp17 recordStampField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType="integer", Order=0)]
@@ -14557,7 +14557,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public ctRecordStamp7 RecordStamp {
+        public ctRecordStamp17 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -14578,18 +14578,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Premises_ServiceLocation_Type_Get.xsd")]
     public partial class Premises_ServiceLocation_Type_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError9 errorField;
+        private ctError19 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError9 Error {
+        public ctError19 Error {
             get {
                 return this.errorField;
             }
@@ -14645,7 +14645,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14691,18 +14691,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Premises_ServiceLocation_Definition_Get.xsd")]
     public partial class Premises_ServiceLocation_Definition_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError19 errorField;
+        private ctError6 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError19 Error {
+        public ctError6 Error {
             get {
                 return this.errorField;
             }
@@ -14723,14 +14723,14 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Premises_ServiceLocation_Definition_Get.xsd")]
     public partial class Premises_ServiceLocation_Definition_GetResultServiceLocationDefinitions : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctRecordStamp16 recordStampField;
+        private ctRecordStamp4 recordStampField;
         
         private string locationTypeField;
         
@@ -14744,7 +14744,7 @@ namespace Bartec.WasteCollector.Service {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctRecordStamp16 RecordStamp {
+        public ctRecordStamp4 RecordStamp {
             get {
                 return this.recordStampField;
             }
@@ -14860,7 +14860,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14906,7 +14906,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14952,7 +14952,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -14975,7 +14975,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -15021,7 +15021,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -15053,18 +15053,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Premises_FutureCollections_Get.xsd")]
     public partial class Premises_FutureCollections_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError28 errorField;
+        private ctError17 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError28 Error {
+        public ctError17 Error {
             get {
                 return this.errorField;
             }
@@ -15124,7 +15124,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -15184,7 +15184,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -15314,18 +15314,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Vehicles_Get.xsd")]
     public partial class Vehicles_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError3 errorField;
+        private ctError4 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError3 Error {
+        public ctError4 Error {
             get {
                 return this.errorField;
             }
@@ -15381,7 +15381,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -15441,7 +15441,7 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -15557,18 +15557,18 @@ namespace Bartec.WasteCollector.Service {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.6.1067.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://www.bartec-systems.com/Handhelds_Get.xsd")]
     public partial class Handhelds_GetResultErrors : object, System.ComponentModel.INotifyPropertyChanged {
         
-        private ctError29 errorField;
+        private ctError23 errorField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public ctError29 Error {
+        public ctError23 Error {
             get {
                 return this.errorField;
             }
